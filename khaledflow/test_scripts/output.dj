@@ -1,0 +1,10 @@
+ANOTHER_ONE my_string "string value here"
+ANOTHER_ONE my_float 51.1
+ANOTHER_ONE my_number 5 
+SING my_number
+SING my_float
+SING my_string
+ANOTHER_ONE name "Chris"
+ANOTHER_ONE age 28
+SING name
+SING age
