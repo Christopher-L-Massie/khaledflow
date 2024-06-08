@@ -2,30 +2,76 @@
 
 ![khaledflow](https://github.com/Christopher-L-Massie/khaledflow/assets/50225179/c7fbb075-1bd2-4480-9885-4f6c462fb9d9)
 
-Major key alert! 🚀 Welcome to KhaledFlow, the most iconic esoteric programming language inspired by DJ Khaled. This repo is all about bringing the heat, delivering smooth syntax, and making your code shine like a mogul.
-🌟 Overview
+🎤 **KhaledFlow** - The Major Key to Coding! This esoteric, interpreted programming language is brought to you by the power of Rust. It's simple, it's effective, and it's here to help you shine. Let's get this money!
 
-KhaledFlow is designed to flow like DJ Khaled's legendary style, with vibrant flair and unbeatable energy. Bless up your projects with the keys to success. But before we secure the bag, we've got two major keys to handle:
+## Project Structure
 
-    Choose the Underlying Language: We need to decide whether to build KhaledFlow on C++ or Rust. Both are powerhouses, but we need to pick the one that aligns with our vision. Drop your thoughts in the issues section!
-    Define Keywords and Functionality: Let's brainstorm the keywords that will make KhaledFlow iconic. Think of all those legendary phrases and how they can power our language. Share your ideas and let's get the conversation started!
+```
+.
+├── build_and_run.sh # The Key to Success: Shell script to build and run the Docker container
+├── Dockerfile # Secure the Bag: Dockerfile for building the project environment
+├── khaledflow
+│ ├── Cargo.toml # Major Configuration: Cargo file for the Rust project
+│ ├── src
+│ │ ├── interpreter.rs # The Voice of the Interpreter
+│ │ ├── lexer.rs # The Lexer, Another One
+│ │ ├── main.rs # The Main Event
+│ │ └── parser.rs # The Parser, Bless Up
+│ └── test_scripts
+│ └── output.dj # Test Script, Let's Win
+└── README.md # This Document, You Smart
+```
 
-### 🚀 How to Get Involved
+## Getting Started
 
-We the best when we work together. Here's how you can join the journey and contribute:
+### Prerequisites
 
-    Check the Issues: Head over to the GitHub issues section to see the latest discussions. Whether it's deciding on the underlying language or nailing down the keywords, your input is gold.
-    Share Your Ideas: Got a killer idea for a keyword or a feature? Don't keep it to yourself! Post it in the issues or start a new discussion.
-    Collaborate and Conquer: Review others' ideas, drop your feedback, and let's build something legendary together.
+- 🐳 Docker - Because you a genius.
 
-### 🔑 Next Steps
+### Building and Running the Project
 
-    Choose Our Foundation: Cast your vote and share your thoughts on whether we should use C++ or Rust. This is our foundation, and we need it to be solid.
-    Define Our Flow: Let's outline the keywords and their functionalities. Think about how DJ Khaled's phrases can translate into coding actions. Your creativity is the key to our success.
+🔑 **Step 1**: Execute the Key to Success, the shell script:
 
+```sh
+'./build_and_run.sh'
 
-### 🗣 Stay Connected
+This script will:
 
-They don't want us to create KhaledFlow, but we're doing it anyway. Stay tuned, stay engaged, and let's make history. Remember, every contribution is a major key to our success.
+    1. Build the Docker image and tag it as khaledflow_image.
+    2. Run the Docker container based on the built image.
 
-Let's get it, fam! Bless up, and let's code like the legends we are. 🔥
+Manual Docker Commands
+
+If you prefer to do it manually, here’s how you secure the bag:
+
+    1. Build the Docker Image:
+
+        'docker build -t khaledflow_image .'
+
+    2. Run the Docker Container:
+
+        'docker run --rm khaledflow_image'
+```
+
+# Example Script
+
+We got the best example script in the test_scripts directory:
+
+## output.dj:
+
+    ANOTHER_ONE my_string "string value here"
+    ANOTHER_ONE my_float 51.1
+    ANOTHER_ONE my_number 5
+    SING my_number
+    SING my_float
+    SING my_string
+
+## Project Modules
+
+    Lexer (lexer.rs): Turns your script into tokens. Major key alert!
+    Parser (parser.rs): Converts tokens into statements. Bless up!
+    Interpreter (interpreter.rs): Executes the statements. Another one!
+
+# Contributing
+
+You smart. You loyal. You got ideas? Bring ‘em in! Open an issue or submit a pull request. We appreciate you.
